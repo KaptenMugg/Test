@@ -1,0 +1,19 @@
+#ifndef TESTCLASS_H
+#define TESTCLASS_H
+
+namespace test
+{
+	class TestClass
+	{
+	public:
+		TestClass(const TestClass &) = delete;
+		TestClass & operator=(const TestClass &) = delete;
+	
+	public:
+		TestClass()
+		{}
+	};
+
+}
+
+#endif
